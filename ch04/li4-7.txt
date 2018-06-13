@@ -1,0 +1,20 @@
+//4_7.cpp
+#include<iostream>
+#include<iomanip>
+#include<string>
+using namespace std;
+struct student   	//学生信息结构体
+{
+    int num;  	//学号
+    string name;  	//姓名
+    char sex;  	//性别
+    int age;  	//年龄
+};
+
+void main()
+{	student stu={97001,"Lin Lin",'F',19};
+	cout<<"num:"<<stu.num<<endl;
+	cout<<"name:"<<stu.name<<endl;
+	cout<<"sex:"<<stu.sex<<endl;
+	cout<<"age:"<<stu.age<<endl;
+}
